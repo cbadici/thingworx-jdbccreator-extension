@@ -14,3 +14,6 @@ To use the builder (after importing the JDBCCreator Extension):
 4. **Create a new Thing** based on this template and connect to your data source using JDBC
 5. **Update the JDBC configuration fields**: JDBC Driver Class Name, JDBC Connection String (available in your JDBC driver documentation) and ConnectionValidationString (A simple query that will work regardless of table names to be executed to verify return values from the database)
 
+Download:
+https://github.com/vrosu/thingworx-jdbccreator-extension/releases
+
