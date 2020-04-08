@@ -3,6 +3,8 @@
 
 This extension leverages the Thingworx FileRepository template to upload a third party JDBC driver file and create an “importable” extension using the uploaded file.
 
+As a prerequisite, you need to have access to the JDBC driver for the database you want to use. The extension does not contain any JDBC drivers. 
+
 To use the builder (after importing the JDBCCreator Extension):
 
 1. **Open the JdbcCreator mashup**, click the “Choose File” button and select the JDBC driver file you want to use from your local file system
