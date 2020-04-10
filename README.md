@@ -5,7 +5,7 @@ This extension leverages the Thingworx FileRepository template to upload a third
 
 As a prerequisite, you need to have access to the JDBC driver for the database you want to use. The extension does not contain any JDBC drivers. 
 
-Documentation is available in the JDBC Extensibility How To.docx
+Please read the JDBC Extensibility How To.docx guide to learn how you can connect to a JDBC-enabled system.
 
 Download:
 https://github.com/vrosu/thingworx-jdbccreator-extension/releases
