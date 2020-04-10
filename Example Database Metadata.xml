@@ -1,0 +1,15 @@
+<Entities>
+  <ExtensionPackages>
+    <!-- The name attribute of the ExtensionPackage element correlates to the name of the zip archive for the extension -->
+    <ExtensionPackage name="DatabaseXYZ_ExtensionPackage" description="DatabaseXYZ JDBC Extension" vendor="Acme Corporation" packageVersion="1.0" minimumThingWorxVersion="5.0.0">
+      <JarResources>
+        <!-- The JDBC JAR file being used to connect to DatabaseXYZ -->
+        <FileResource type="JAR" file="databaseXYZ.jdbc.jar" description="DatabaseXYZ JDBC JAR"/>
+      </JarResources>
+    </ExtensionPackage>
+  </ExtensionPackages>
+  <ThingTemplates>
+    <!-- A Database ThingTemplate for the DatabaseXYZ extension -->
+    <ThingTemplate name="DatabaseXYZ" baseThingTemplate="Database" description="DatabaseXYZ ThingTemplate"/>
+  </ThingTemplates>
+</Entities>
